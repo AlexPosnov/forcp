@@ -1,0 +1,132 @@
+.toolbar {
+    margin: auto;
+    width: 1200px;
+    border: black solid 1px;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 55px;
+}
+
+p {
+    margin: 40px auto 40px auto;
+}
+
+.button {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #79ff45;
+    border: #ff503a solid 1px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.plan-content {
+    width: 1200px;
+    margin: auto;
+    background-color: #79ff45;
+}
+
+.main-content {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.pop-up {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    border: black solid 1px;
+}
+
+.img {
+    margin: auto;
+    display: block;
+}
+
+.popup {
+    position: fixed;
+    display: inline-block;
+    cursor: pointer;
+    right: 50px;
+    bottom: 150px;
+    border: #79ff45 solid 1px;
+    padding: 5px;
+    background-color: #ff503a;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.form-fields-wrapper {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.form-field {
+    display: block;
+    margin: auto;
+}
+
+.pluses-in-cs-power {
+    margin: auto;
+}
+
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

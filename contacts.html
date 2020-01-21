@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="cs-cart" content="cs-cart">
+    <meta name="job" content="job in cart-power">
+    <title>Работа в CART-POWER</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="toolbar">
+    <div class="row">
+        <a href="index.html" class="button">О Компании</a>
+        <a href="plan.html" class="button">План стажировки</a>
+        <a href="super_job.html" class="button">Успешные кейсы</a>
+        <a href="carrer.html" class="button">Вакансии</a>
+        <a href="contacts.html" class="button">Контакты</a>
+    </div>
+</div>
+<main class="main-content">
+    <img alt="#" src="https://www.shopolog.ru/s/img/services/3c/91/800x400_3c915d08c8eba0e81da5d0e543ab0bb6___png____4_a2e757e6.png">
+    <div class="form-wrapper">
+        <p>Связаться с нами Вы можете с помощью формы обратной связи:</p>
+        <form action="#" method="post">
+            <div class="form-fields-wrapper">
+                <input type="text" class="form-field" placeholder="Имя" required>
+                <input type="text" class="form-field" placeholder="Фамилия" required>
+                <input type="text" class="form-field" placeholder="E-mail" required><br>
+            </div>
+            <input type="checkbox" id="has_exp_job" required><label for="has_exp_job">Имеется опыт работы</label><br>
+            <input type="checkbox" id="student" required><label for="student">Студент</label><br>
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+</main>
+<footer>
+    <div class="footer">
+        <span>Cart-Power</span>
+        <span class="year">2020</span>
+    </div>
+</footer>
+</body>
+
+<div id="sb" class="send-button popup"onclick="showPopup()">Вакансии
+    <div class="popuptext" id="myPopup">Узнать о вакансия вы можете по кликнув по кнопке "Вакансии"</div>
+</div>
+<script src="js/scripts.js"></script>
+</html>
